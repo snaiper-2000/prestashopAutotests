@@ -40,6 +40,9 @@ public class CartPage {
         $(By.xpath("//a[@class = 'remove-from-cart']")).click();
     }
 
+    /**
+     * Перейти в корзину
+     */
     public void goToCart(){
         $(".cart-products-count").click();
     }
