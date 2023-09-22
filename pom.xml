@@ -12,18 +12,9 @@
         <!-- Указываем версию Java (можете изменить на актуальную) -->
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
-        <aspectj.version>1.9.19</aspectj.version>
     </properties>
 
     <dependencies>
-        <!-- Зависимость для тестов JUnit -->
-        <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
-        <!--<dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-api</artifactId>
-            <version>5.9.2</version>
-            <scope>test</scope>
-        </dependency> -->
         <!-- https://mvnrepository.com/artifact/org.testng/testng -->
         <dependency>
             <groupId>org.testng</groupId>
@@ -31,7 +22,6 @@
             <version>7.8.0</version>
             <scope>test</scope>
         </dependency>
-
 
         <!-- Зависимость для Selenide -->
         <dependency>
