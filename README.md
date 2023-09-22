@@ -21,7 +21,7 @@
 
 1. Склонируйте этот репозиторий на вашу локальную машину:
 
-        git clone https://github.com/ваш-username/репозиторий.git
+        git clone https://github.com/snaiper-2000/prestashopAutotests.git
 
 
 2. Установите необходимые зависимости с помощью Maven:
@@ -33,7 +33,7 @@
 
 Вы можете запустить тесты, используя команду Maven:
 
-    mvn test
+    mvn clean test
 
 ## Отчет
 
